@@ -25,7 +25,7 @@ const TeamMemberItemStyles = styled.div`
       margin-bottom: 1rem;
       img {
         width: 300px;
-        max-height: 360px;
+        max-height: 375px;
       }
     }
 
