@@ -10,6 +10,7 @@ const SectionStyles = styled.h3`
     theme === themeList.light ? "var(--darkBlue_2)" : "var(--lightBlue_1)"};
   @media only screen and (max-width: 768px) {
     font-size: 3rem;
+    padding: 2rem 0;
   }
 `;
 

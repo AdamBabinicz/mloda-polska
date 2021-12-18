@@ -11,7 +11,7 @@ import SectionTitle from "../titles/SectionTitle";
 import ServiceItem from "./ServiceItem";
 
 const ServicesSectionStyles = styled.div`
-  padding: 10rem 0;
+  padding: 1rem 0;
   text-align: center;
   margin-bottom: 1rem;
   .services__title {
