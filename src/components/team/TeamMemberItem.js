@@ -31,7 +31,7 @@ const TeamMemberItemStyles = styled.div`
 
     @media only screen and (max-width: 480px) {
       img {
-        width: 260px;
+        width: 250px;
       }
     }
   }
