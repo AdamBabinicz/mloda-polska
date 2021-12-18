@@ -13,7 +13,7 @@ import ServiceItem from "./ServiceItem";
 const ServicesSectionStyles = styled.div`
   padding: 1rem 0;
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   .services__title {
     margin-bottom: 3rem;
   }

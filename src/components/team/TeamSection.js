@@ -15,7 +15,7 @@ import teamMember8 from "../../assets/images/20.jpg";
 import teamMember9 from "../../assets/images/18.jpg";
 
 const TeamSectionStyles = styled.div`
-  padding: 10rem 0;
+  padding: 1rem 0;
   .team__wrapper {
     display: flex;
     gap: 1rem;
