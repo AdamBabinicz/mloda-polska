@@ -46,6 +46,7 @@ const ServiceItemStyles = styled.div`
     }
   }
   @media only screen and (max-width: 768px) {
+    margin-bottom: 1rem;
     background: var(--mediumSlateBlue);
     .service__icon {
       background: var(--lightBlue_1);
@@ -53,6 +54,7 @@ const ServiceItemStyles = styled.div`
     }
     .service__title {
       color: var(--lightBlue_1);
+      margin-bottom: 2rem;
     }
     .service__desc {
       color: var(--lightBlue_1);

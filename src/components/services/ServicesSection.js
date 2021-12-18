@@ -13,6 +13,7 @@ import ServiceItem from "./ServiceItem";
 const ServicesSectionStyles = styled.div`
   padding: 10rem 0;
   text-align: center;
+  margin-bottom: 1rem;
   .services__title {
     margin-bottom: 3rem;
   }
@@ -20,6 +21,7 @@ const ServicesSectionStyles = styled.div`
     display: flex;
     gap: 2rem;
   }
+
   @media only screen and (max-width: 768px) {
     .services__items {
       flex-direction: column;
