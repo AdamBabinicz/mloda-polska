@@ -8,7 +8,7 @@ import styled from "styled-components";
 import Modal from "../components/Portal/Modal";
 
 const AboutStyles = styled.div`
-  padding: 10rem 0;
+  padding: 1rem 0;
   .about__wrapper {
     display: flex;
     align-items: center;
