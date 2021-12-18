@@ -31,6 +31,7 @@ html{
   background: ${({ theme: { theme } }) =>
     theme === themeList.light ? "var(--lightBlue_1)" : "var(--darkBlue_3)"};
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
   } 
 
 *, *:before, *:after {
