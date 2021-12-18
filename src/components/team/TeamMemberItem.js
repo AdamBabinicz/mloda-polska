@@ -24,14 +24,14 @@ const TeamMemberItemStyles = styled.div`
     .teamMember__img {
       margin-bottom: 1rem;
       img {
-        width: 300px;
+        /* max-width: 200px; */
         max-height: 375px;
       }
     }
 
     @media only screen and (max-width: 480px) {
       img {
-        width: 250px;
+        width: 240px;
       }
     }
   }

@@ -32,7 +32,7 @@ const TeamSectionStyles = styled.div`
   .team__members {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     gap: 5rem;
   }
   @media only screen and (max-width: 790px) {
