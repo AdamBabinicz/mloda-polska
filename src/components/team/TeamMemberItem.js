@@ -20,6 +20,7 @@ const TeamMemberItemStyles = styled.div`
       theme === themeList.light ? "var(--darkBlue_2)" : "var(--lightBlue_1)"};
   }
   @media only screen and (max-width: 768px) {
+    padding: 1rem 0;
     .teamMember__img {
       margin-bottom: 1rem;
       img {
