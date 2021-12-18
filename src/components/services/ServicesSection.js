@@ -11,7 +11,7 @@ import SectionTitle from "../titles/SectionTitle";
 import ServiceItem from "./ServiceItem";
 
 const ServicesSectionStyles = styled.div`
-  padding: 1rem 0;
+  padding: 5rem 0;
   text-align: center;
   margin-bottom: 2rem;
   .services__title {
@@ -23,6 +23,7 @@ const ServicesSectionStyles = styled.div`
   }
 
   @media only screen and (max-width: 768px) {
+    padding: 1rem 0;
     .services__items {
       flex-direction: column;
       max-width: 300px;

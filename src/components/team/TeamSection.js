@@ -15,7 +15,7 @@ import teamMember8 from "../../assets/images/20.jpg";
 import teamMember9 from "../../assets/images/18.jpg";
 
 const TeamSectionStyles = styled.div`
-  padding: 1rem 0;
+  padding: 5rem 0;
   .team__wrapper {
     display: flex;
     gap: 1rem;
@@ -36,6 +36,7 @@ const TeamSectionStyles = styled.div`
     gap: 5rem;
   }
   @media only screen and (max-width: 790px) {
+    padding: 1rem 0;
     .team__wrapper {
       flex-direction: column;
       text-align: center;

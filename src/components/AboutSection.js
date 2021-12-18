@@ -8,7 +8,7 @@ import styled from "styled-components";
 import Modal from "../components/Portal/Modal";
 
 const AboutStyles = styled.div`
-  padding: 1rem 0;
+  padding: 5rem 0;
   .about__wrapper {
     display: flex;
     align-items: center;
@@ -30,6 +30,7 @@ const AboutStyles = styled.div`
     line-height: 1.7;
   }
   @media only screen and (max-width: 768px) {
+    padding: 1rem 0;
     .about__wrapper {
       flex-direction: column;
     }
