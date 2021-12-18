@@ -1,43 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/1.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+      name="DESCRIPTION"
+      content="„Młoda Polska”, jako epoka, była protestem przeciwko standaryzacji i technicyzacji życia społecznego, obyczajowości mieszczańskiej i antagonizmom społecznym.”"
+    />
+    <meta
+      name="Młodopolanie aktywnie przeciwstawiali się (przez ośmieszenie, odrzucenie przyjętych konwenansów, ekstrawagancki ubiór – notabene: przejawy tzw. buntu modernistycznego) ówczesnemu mieszczaństwu, określając je mianem „filisterstwa” (krytykę taką podjęła wielokrotnie Gabriela Zapolska, m.in. w dramacie „Moralność Pani Dulskiej”)."
+      content="index, follow"
+    />
+    <meta name="handheldFriendly" content="true" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Ustosunkowując się do minionej epoki, młodopolanie przyjęli zdecydowaną postawę oskarżycielską w stosunku do pozytywistów, którym mieli za złe brak skutecznych działań i pogodzenie się z faktem podzielenia polskich ziem pomiędzy trzy sąsiednie mocarstwa."
+    />
+    <meta property="og:url" content="https://barok.netlify.app" />
+    <meta property="og:image" content="https://barok.netlify.app/1.jpg" />
+    <meta property="fb:app_id" content="1951716098397474" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="1200" />
+    <meta property="business:contact_data:street_address" content="" />
+    <meta property="business:contact_data:locality" content="Młoda Polska" />
+    <meta property="business:contact_data:region" content="Literatura" />
+    <meta property="business:contact_data:postal_code" content="31-019" />
+    <meta
+      property="business:contact_data:country_name"
+      content="Literatura młodopolska"
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:site"
+      content="https://twitter.com/lata8290/status/1305437932631871488"
+    />
+    <meta
+      name="twitter:title"
+      content="W tej kwestii epoka Młodej Polski była bardzo bliska epoce romantyzmu – oporu, walki z zaborcą (bunt modernistyczny), ale też w kwestii powrotu do tradycji i wartości narodowych (szczególną rolę pełnił tu dramat)."
+    />
+    <meta
+      name="twitter:description"
+      content="Dążenia niepodległościowe w tamtym czasie wzrastały, nastąpił więc powrót do romantyzmu i poszukiwań symbolicznych i nastrojowych form ekspresji (patronami młodopolskich twórców szybko stali się tacy poeci, jak Cyprian Norwid czy Juliusz Słowacki)."
+    />
+    <meta name="twitter:image" content="https://barok.netlify.app/2.png" />
+    <meta
+      name="twitter:image:alt"
+      content="Zwrócono uwagę na takie formy uczuciowości jak: melancholia, rozpacz, pożądanie nirwany lub śmierci, tragizm istnienia, somnambulizm."
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Moo+Lah+Lah&display=swap"
+      rel="stylesheet"
+    />
+    <title>Młoda Polska</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div id="modal"></div>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org/",
+        "@type": "VideoObject",
+        "name": "Literatura młodopolska",
+        "contentUrl": "https://pl-pl.facebook.com/lozagan",
+        "duration": "PT00H04M33S",
+        "thumbnailUrl": "https://barok.netlify.app/3.jpg",
+        "uploadDate": "2021-12-18",
+        "description": "Głównymi ośrodkami życia literacko-artystycznego Młodej Polski stały się Kraków i Lwów, dużego znaczenia nabrało również Zakopane (rozwijała się tzw. „poezja tatrzańska”, tworzona m.in. przez Kazimierza Przerwę-Tetmajera)."
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Blog",
+        "url": "https://barok.netlify.app"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "Młoda Polska",
+        "url": "https://barok.netlify.app",
+        "sameAs": [
+          "https://www.facebook.com/MadeinKrakow",
+          "https://goo.gl/maps/Yk6Pjc5qrCXNugda6",
+          "https://twitter.com/royalsociety/status/1111931141836156928",
+          "https://www.youtube.com/watch?v=4Vj7hM9B8ok",
+          "https://pl.pinterest.com/pin/667447607273551098"
+        ]
+      }
+    </script>
   </body>
 </html>
