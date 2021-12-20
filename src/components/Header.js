@@ -12,7 +12,7 @@ const HeaderStyles = styled.header`
   left: 0;
   width: 100%;
   height: var(--header-height);
-  background-color: ${({ theme: { theme } }) =>
+  background: ${({ theme: { theme } }) =>
     theme === themeList.light ? "var(--lightBlue_1)" : "var(--darkBlue_3)"};
   border-bottom: 1px solid var(--mediumSlateBlue);
   .navigation {
@@ -61,7 +61,7 @@ const HeaderStyles = styled.header`
         theme === themeList.light ? "var(--darkBlue_2)" : "var(--lightBlue_1)"};
     }
     &:hover {
-      background-color: #8080803b;
+      background: #8080803b;
       border-radius: 4px;
     }
   }
@@ -70,7 +70,7 @@ const HeaderStyles = styled.header`
     right: 10px;
     top: 10px;
     &:hover {
-      background-color: #8080803b;
+      background: #8080803b;
       svg {
         color: white;
       }
@@ -177,22 +177,46 @@ export default function Header() {
               )}
               <ul>
                 <li>
-                  <Link to="start" smooth activeClass="active" spy>
+                  <Link
+                    to="start"
+                    smooth
+                    activeClass="active"
+                    spy
+                    onClick={() => setIsNavOpen(false)}
+                  >
                     Start
                   </Link>
                 </li>
                 <li>
-                  <Link to="tendencje" smooth activeClass="active" spy>
+                  <Link
+                    to="tendencje"
+                    smooth
+                    activeClass="active"
+                    spy
+                    onClick={() => setIsNavOpen(false)}
+                  >
                     Tendencje
                   </Link>
                 </li>
                 <li>
-                  <Link to="idea" smooth activeClass="active" spy>
+                  <Link
+                    to="idea"
+                    smooth
+                    activeClass="active"
+                    spy
+                    onClick={() => setIsNavOpen(false)}
+                  >
                     Idea
                   </Link>
                 </li>
                 <li>
-                  <Link to="twórcy" smooth activeClass="active" spy>
+                  <Link
+                    to="twórcy"
+                    smooth
+                    activeClass="active"
+                    spy
+                    onClick={() => setIsNavOpen(false)}
+                  >
                     Twórcy
                   </Link>
                 </li>
